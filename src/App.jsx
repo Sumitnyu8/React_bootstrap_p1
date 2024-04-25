@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Navbar, Nav, Button, Card  } from 'react-bootstrap';
 import Home from './screens/Home';
+import Services from './screens/Services';
 
 function App() {
 
@@ -19,10 +20,11 @@ function App() {
             <Nav.Link href="#contact" className='me-5'>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </Container>  
     </Navbar>
 
     <Home />
+    <Services />
     </>
 
   )

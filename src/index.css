@@ -50,18 +50,15 @@ body {
 
 /* home */
 
-.title .rotate {
+.SectionName {
   display: inline-block;
   transform: rotate(-35deg);
   border: 1px solid #5C64CF !important;
-}
-
-.title h6 {
   margin: 0 0 30px -10px;
   color: #5C64CF;
 }
 
-.title h1 {
+.SectionHeading {
   line-height: .8;
   font-size: 70px;
   margin-bottom: 2rem;
