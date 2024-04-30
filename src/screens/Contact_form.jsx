@@ -13,7 +13,7 @@ import Primary_button from '../components/Primary_button'
 function Contact_form() {
   return (
     <>
-    <section className="py-section contact">
+    <section className="py-section contact" id="contact">
       <div className="container services py-section">
         <Section_name
           name="Contact"
