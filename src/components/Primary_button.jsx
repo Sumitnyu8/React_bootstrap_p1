@@ -1,8 +1,9 @@
 import React from 'react'
+import Button from "react-bootstrap/Button";
 
-function Primary_button() {
+function Primary_button({text}) {
   return (
-    <Button className='secondary-bg-color secondary-btn'>Let's make it</Button>
+    <Button className='primary-bg-color btn text-white primary-border'>{text}</Button>
   )
 }
 

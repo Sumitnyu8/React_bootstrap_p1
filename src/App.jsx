@@ -4,6 +4,8 @@ import Home from './screens/Home';
 import Services from './screens/Services';
 import Portfolio from './screens/Portfolio';
 import Experiences from './screens/Experiences';
+import Contact_form from './screens/Contact_form';
+import Footer from './screens/Footer';
 
 function App() {
 
@@ -29,6 +31,8 @@ function App() {
     <Services />
     <Experiences />
     <Portfolio />
+    <Contact_form />
+    <Footer />
     </>
 
   )

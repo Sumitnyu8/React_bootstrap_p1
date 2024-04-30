@@ -39,10 +39,13 @@ function Experiences() {
         <div className="container d-flex ">
           <div className="col-6 title">
             <div className="col-6">
-              <Section_name name="Hello" />
+            <Section_name
+            name="Experiences"
+            style={{ transform: "rotate(-15deg)"}}
+          />
               <Section_heading
                 name="Skills and "
-                style={{ fontSize: "50px", marginBottom: "0" }}
+                style={{ fontSize: "50px", marginBottom: "0", }}
               />
               <Section_heading
                 name="Experience"
