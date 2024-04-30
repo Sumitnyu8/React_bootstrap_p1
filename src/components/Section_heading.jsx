@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Section_heading({name}) {
+function Section_heading({name,style}) {
   return (
-    <h1 className='mb-4 SectionHeading '><p>{name}</p></h1>
+    <h1 className='SectionHeading fw-bold' style={style}><p>{name}</p></h1>
   )
 }
 

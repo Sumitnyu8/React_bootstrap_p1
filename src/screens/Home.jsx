@@ -7,7 +7,7 @@ import Section_name from '../components/Section_name'
 
 function Home() {
   return (
-    <div>
+    <div id='home'>
       <div className='container d-flex home py-section'>
         <div className='col-6 title py-5 mt-5'>
           <Section_name name ='Hello' />

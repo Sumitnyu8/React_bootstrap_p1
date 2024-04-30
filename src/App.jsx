@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Navbar, Nav, Button, Card  } from 'react-bootstrap';
 import Home from './screens/Home';
 import Services from './screens/Services';
+import Portfolio from './screens/Portfolio';
+import Experiences from './screens/Experiences';
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
 
     <Home />
     <Services />
+    <Experiences />
+    <Portfolio />
     </>
 
   )

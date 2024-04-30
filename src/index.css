@@ -15,8 +15,18 @@ body {
   padding-bottom: 60px;
 }
 
+.primary-sec-color{
+  background-color: #fff7e8;
+}
+
+.p-0{
+  padding: 0;
+}
+
+
+/* sections style  */
 .home {
-  height: 90vh;
+  height: auto;
 }
 
 /* header */
@@ -71,4 +81,39 @@ body {
 .btn:hover {
   background-color: #000000 !important ;
   color: white !important;
+}
+
+/* Services section  */
+
+.rotate15{
+  transform: rotate(-15deg);
+}
+
+.card-body{
+  border: 2px solid #18171c;
+  box-shadow: 0 0 0 0 #18171c;
+  transition: ease all 0.35s;
+}
+.card-body:hover{
+  box-shadow: 5px 5px 0 0 #18171c;
+}
+
+/* Skills */
+
+.Skill-card p{
+  font-size: 1rem;
+  border: 2px solid #18171c;
+  transition: ease all 0.35s;
+}
+.Skill-card p:hover{
+  box-shadow: 5px 5px 0 0 #18171c;
+}
+.Skill-card p span{
+  font-size: 2rem;
+}
+
+.me img{
+  border-radius: 50%!important;
+  width: 150px;
+  height: 150px;
 }
